@@ -15,7 +15,7 @@ const GetStarted = () => {
             <Text style={[styles.nftStyle, { marginTop: 5 }]}>NFT Market</Text>
             <Text style={styles.description}>A credible and axellent marketplace for non-fungiable token</Text>
 
-            <TouchableOpacity style={styles.btn} onPress={()=> navigation.navigate('Home')}>
+            <TouchableOpacity style={styles.btn} onPress={()=>navigation.navigate('Login')}>
                 <Text style={styles.swipeTxt}>Get Started</Text>
             </TouchableOpacity>
 

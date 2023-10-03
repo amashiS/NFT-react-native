@@ -59,8 +59,27 @@ const styles = StyleSheet.create({
     },
 
     menuIcon1: {
-        width: 17,
-        height: 17
+        width: 18,
+        height: 18
+
+    },
+
+    menuIcon2: {
+        width: 22,
+        height: 22,
+        opacity: 0.8
+
+    },
+
+    menuIcon3: {
+        width: 18,
+        height: 18,
+
+    },
+
+    menuIcon4: {
+        width: 20,
+        height: 20,
 
     },
 
@@ -85,12 +104,12 @@ const styles = StyleSheet.create({
 
     },
 
-    borderstyle2:{
+    borderstyle2: {
         borderRadius: 30,
         justifyContent: 'center',
         alignItems: 'center',
         padding: 11,
-        backgroundColor:'#BCEE64'
+        backgroundColor: '#BCEE64'
 
     },
 
@@ -114,7 +133,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         marginTop: 25,
         shadowColor: '#E7E6E9',
-        shadowOffset: { width: 0, height: 2 }, 
+        shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.3,
         shadowRadius: 2
 
@@ -158,50 +177,50 @@ const styles = StyleSheet.create({
 
     },
 
-    detailsStyle:{
-        width:'100%',
-        height:460,
-        backgroundColor:'#FEFEFE',
-        borderRadius:30,
-        marginTop:30
+    detailsStyle: {
+        width: '100%',
+        height: 460,
+        backgroundColor: '#FEFEFE',
+        borderRadius: 30,
+        marginTop: 30
 
     },
 
-    cryptoStyle1:{
+    cryptoStyle1: {
         width: '100%',
         height: 380,
-        borderTopRightRadius:30,
-        borderTopLeftRadius:30,
+        borderTopRightRadius: 30,
+        borderTopLeftRadius: 30,
 
     },
 
-    bidStyle:{
+    bidStyle: {
         width: 29,
         height: 29
 
     },
 
-    bidTxtStyle:{
-    color:'#8A8A8A',
-    fontSize:16
+    bidTxtStyle: {
+        color: '#8A8A8A',
+        fontSize: 16
 
 
     },
 
-    bidTxtStyle1:{
-    fontSize:16,
-    fontWeight:'500'
+    bidTxtStyle1: {
+        fontSize: 16,
+        fontWeight: '500'
 
     },
 
-    flwSyle:{
-        width:110,
-        height:47,
-        backgroundColor:'#BCEE64',
-        borderRadius:30,
-        marginTop:5,
-        justifyContent:'center',
-        alignItems:'center'
+    flwSyle: {
+        width: 110,
+        height: 47,
+        backgroundColor: '#BCEE64',
+        borderRadius: 30,
+        marginTop: 5,
+        justifyContent: 'center',
+        alignItems: 'center'
 
     },
 
@@ -226,7 +245,7 @@ const styles = StyleSheet.create({
         borderRadius: 40,
         alignItems: 'center',
         justifyContent: 'center',
-        bottom:-50
+        bottom: -50
 
     },
 
@@ -240,8 +259,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         alignItems: 'center',
         justifyContent: 'center',
-        margin:15
-        
+        margin: 15
+
 
     },
 
@@ -249,9 +268,168 @@ const styles = StyleSheet.create({
         width: 16,
         height: 16
 
+    },
+
+    nameStyle: {
+        color: '#fff',
+        fontSize: 20,
+        fontWeight: '700',
+
+    },
+
+    nameStyle1: {
+        color: '#fff',
+        fontSize: 15,
+        fontWeight: '500',
+
+    },
+
+    valueStyle: {
+        fontSize: 40,
+        color: '#fff',
+        fontWeight: '700',
+        alignSelf: 'center',
+        paddingTop: 30
+
+    },
+
+    ViewStyle: {
+        width: 140,
+        height: 55,
+        backgroundColor: '#21211D',
+        marginTop: 20,
+        borderRadius: 20,
+        alignItems: 'center',
+        justifyContent: 'center'
+
+    },
+
+    ViewStyle1: {
+        width: 140,
+        height: 55,
+        backgroundColor: '#fff',
+        marginTop: 20,
+        borderRadius: 20,
+        alignItems: 'center',
+        justifyContent: 'center'
+
+    },
+
+    nameStyle2: {
+        color: '#000',
+        fontSize: 15,
+        fontWeight: '500',
+
+
+    },
+
+    dataStyle: {
+        width: '100%',
+        height: '100%',
+        backgroundColor: '#fff',
+        marginTop: 60,
+        borderTopRightRadius: 40,
+        borderTopLeftRadius: 40,
+        padding: 30,
+       
+
+    },
+
+    assestStyle: {
+        fontSize: 16,
+        fontWeight: '600'
+
+    },
+
+    valueTxt: {
+        fontSize: 14
+
+    },
+
+    incideStyle: {
+        width: '100%',
+        height: 80,
+        marginTop: 30,
+       marginBottom:300
+
+
+
+    },
+
+    ruler: {
+        width: '100%',
+        height: 1,
+        backgroundColor: '#E7EDEB',
+        marginBottom: 5,
+        
+
+    },
+
+    bitStyle: {
+        fontSize: 16,
+        fontWeight: '600',
+        marginBottom: 7
+
+    },
+
+    numStyle: {
+        fontSize: 16,
+
+    },
+
+    bitIcon: {
+        width: 30,
+        height: 30
+
+    },
+
+    loginStyle:{
+        fontSize:25,
+        fontWeight:'700',
+        alignSelf:'center'
+
+    },
+
+    mainStyle:{
+        width:'100%',
+        height:350
+
+    },
+
+    txt: {
+        fontSize: 15,
+        marginBottom: 10,
+        color: '#000',
+        fontWeight:'600'
+
+    },
+
+    input: {
+        borderRadius: 9,
+        color: '#000',
+        justifyContent: 'center',
+        padding: 12,
+        fontSize: 16,
+        marginTop: -3
+
+    },
+
+    frgot:{
+        color:'#9FC341'
+
+    },
+
+    btnView:{
+        width:'100%',
+        height:60,
+        backgroundColor:'#BAEB64',
+        marginTop:70,
+        borderRadius:40,
+        justifyContent:'center',
+        alignItems:'center'
     }
 
 
-    
+
 })
 export { styles };
